@@ -44,8 +44,6 @@ group :backend, :frontend do
   gem 'capybara', '~> 3.13', require: false
   gem 'capybara-screenshot', '>= 1.0.18', require: false
   gem 'selenium-webdriver', require: false
-  gem 'materialize-sass'
-  gem 'material_icons'
 end
 
 group :frontend do
@@ -55,6 +53,8 @@ end
 group :backend do
   gem 'teaspoon', github: 'jejacks0n/teaspoon', require: false
   gem 'teaspoon-mocha', github: 'jejacks0n/teaspoon', require: false
+  gem 'materialize-sass', require: false
+  gem 'material_icons', require: false
 end
 
 group :utils do
